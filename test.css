@@ -1,0 +1,101 @@
+#title-screen {
+    text-align: center;
+}
+#title-header {
+    color: white;
+    font-size: 64px;
+    margin-top: -12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: fadeAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#start {
+    margin-top: 32%;
+    width: 205px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    transition: transform 0.5s;
+}
+#start:hover {
+    transform: scale(1.5);
+}
+#body-box {
+    background-image: url('a.jpg');
+    background-size: cover;
+}
+#question-title {
+    margin-top: -19.5px;
+    background-color: white;
+    border-radius: 5px;
+}
+#question {
+    text-align: center;
+}
+#progress-bar {
+    margin-top: -21px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 7px;
+}
+#progression {
+    width: 25%;
+    height: 30px;
+    background-color: #4caf51;
+    border-radius: 7px;
+    transition: width 2s;
+}
+#progress-number {
+    text-align: right;
+    color: white;
+}
+#answer-form {
+    margin-top: 10%;
+}
+.answer-box {
+    background-color: white;
+    width: 200%;
+    height: 200px;
+    padding-right: 1000px;
+    line-height: 35px;
+    font-family: 'lato';
+    font-size: 25px;
+    font-weight: 100;
+    transition: 1s;
+}
+.answer-box:hover {
+    background-color: blue;
+}
+#buttons {
+    margin-top: 18%;
+    text-align: center;
+}
+#previous, #next {
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    transition: transform .2s;
+}
+#previous:hover {
+    transform: scale(1.5);
+}
+#next:hover {
+    transform: scale(1.5);
+}
+#previous {
+    background-color: red;
+}
+#next {
+    background-color: green;
+}

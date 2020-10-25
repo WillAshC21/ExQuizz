@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(a.jpg) center fixed;
+    background-size: cover;
+}
+
+#box{
+    color: antiquewhite;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    border-radius: 7px;
+    background: rgba(100,100,100,0.8);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
